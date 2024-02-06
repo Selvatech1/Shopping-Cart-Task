@@ -11,11 +11,10 @@ function App() {
   return (
     <>
       <CartProvider>
-      <Header/>
+        <Header />
         <Home />
         <Cart />
         <Footer />
-       
       </CartProvider>
     </>
   );
